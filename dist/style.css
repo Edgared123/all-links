@@ -43,8 +43,9 @@ a.featured {
     position: relative;
     background-color: #fff;
     color: #000000;
-    font-weight: 700;
     border-radius: 40px;
+    font-weight: 700
+    
 }
 
 a.featured:before {
