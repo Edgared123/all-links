@@ -60,14 +60,15 @@ a.featured:before {
 
 h2 {
     font-size: 13px;
-    font-weight: 400
+    font-weight: 400;
+    letter-spacing: 1px
     
 }
 
 h4 {
     font-size: 15px;
-    font-weight: 400;
-    letter-spacing: 4px
+    font-weight: normal;
+    letter-spacing: 6px
 }
 
 .channels {
