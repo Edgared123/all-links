@@ -24,7 +24,8 @@ body {
 a.featured:hover,
 a:hover {
     background-color: #000000;
-    color: #fff
+    color: #fff;
+    background: #000000
 }
 
 a {
@@ -69,26 +70,4 @@ h4 {
     font-size: 12px;
     font-weight: 400;
     letter-spacing: 2px
-}
-
-.channels {
-    display: flex;
-    max-width: 400px;
-    margin: 0 auto
-}
-
-.channels a {
-    flex: 1;
-    padding: 5px 10px;
-    margin-right: 10px;
-    background-color: #000000;
-    border: none
-}
-
-.channels a:last-child {
-    margin-right: 0
-}
-
-.channels a:hover {
-    text-decoration: underline
 }
