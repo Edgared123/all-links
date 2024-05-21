@@ -59,15 +59,15 @@ a.featured:before {
 }
 
 h2 {
-    font-size: 11px;
+    font-size: 13px;
     font-weight: 400
     
 }
 
 h4 {
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 400;
-    letter-spacing: 2px
+    letter-spacing: 4px
 }
 
 .channels {
