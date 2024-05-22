@@ -18,7 +18,7 @@ body {
 }
 
 .logo {
-    width: 120px
+    width: 140px
 }
 
 a.featured:hover,
@@ -60,14 +60,10 @@ a.featured:before {
 }
 
 h2 {
-    font-size: 15px;
-    font-weight: 400;
-    letter-spacing: 1px
+    font-size: 19px;
     
 }
 
 h4 {
-    font-size: 12px;
-    font-weight: 400;
-    letter-spacing: 2px
+    font-size: 17px;
 }
