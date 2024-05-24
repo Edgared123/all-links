@@ -59,14 +59,18 @@ a.featured:before {
     border: 0px solid #000000
 }
 
+.discord {
+    text-align: left
+}
+
 h2 {
-    font-size: 19px;
+    font-size: 19px
     
     
 }
 
 h4 {
-    font-size: 17px;
+    font-size: 18px;
     display: block;
     max-width: 400px;
     margin: 0 auto 15px auto;
@@ -74,3 +78,4 @@ h4 {
     font-size: 0.85rem;
     color: #ffffff
 }
+
