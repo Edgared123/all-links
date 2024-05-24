@@ -60,6 +60,9 @@ a.featured:before {
 }
 
 .discord {
+    position: relative;
+    height: 18px;
+    width: 18px;
     text-align: left
 }
 
