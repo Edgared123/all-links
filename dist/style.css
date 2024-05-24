@@ -17,7 +17,7 @@ body {
     font-family: Roboto, sans-serif
 }
 
-.logo {
+.circle {
     width: 140px;
     text-align: center;
 }
@@ -48,6 +48,7 @@ a.featured {
     color: #000000;
     border-radius: 40px;
     font-weight: 700
+    text-align: center;
     
 }
 
@@ -60,6 +61,7 @@ a.featured:before {
     width: calc(100% - 4px);
     height: calc(100% - 4px);
     border: 0px solid #000000
+
 }
 
 .discord {

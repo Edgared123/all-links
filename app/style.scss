@@ -48,6 +48,7 @@ a {
         background-color: #ffffff;
         color: #000000;
         font-weight: bold;
+        text-align: center;
 
         &:before {
             content: "";
@@ -56,6 +57,7 @@ a {
             left: 2px;            
             width: calc(100% - 4px);
             height: calc(100% - 4px);
+            text-align: center;
             
         }
     }
