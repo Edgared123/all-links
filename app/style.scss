@@ -11,16 +11,22 @@ body {
     background-color: #000000;
     color: #ffffff;
     min-height: 100vh;
-    text-align: center;
+    
     font-family: 'Roboto', sans-serif;
 }
-
+.discord {
+    position: relative;
+    height: 18px;
+    width: 18px;
+    text-align: left
+}
 
 
 a, a.featured {    
     &:hover {
         background-color: #000000;
         color: #ffffff;
+        text-align: center;
         background: #000000
     }
 }
@@ -32,6 +38,7 @@ a {
     padding: 15px 20px;
     font-size: 0.85rem;
     color: #ffffff;
+    text-align: center;
     
     text-decoration: none;
     transition: all 200ms ease-in-out;
@@ -56,6 +63,7 @@ a {
 
 h2 {
     font-size: 19px;
+    text-align: center;
     font-weight: normal
     
     
@@ -69,6 +77,7 @@ h4 {
     margin: 0 auto 15px auto;
     padding: 15px 20px;
     font-size: 0.85rem;
+    text-align: center;
     color: #ffffff;
 }
 
