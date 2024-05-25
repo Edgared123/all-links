@@ -67,9 +67,15 @@ a.featured:before {
     
     height: 50px;
     width: 50px;
+    position: relative;
+    pointer-events: none;
+    top: 5
+
     
 
 }
+
+
 
 .circle {
     text-shadow:#000000;
@@ -78,6 +84,7 @@ a.featured:before {
 
 h2 {
     font-size: 19px;
+    filter: blur(3px)
     
     
     
@@ -87,11 +94,11 @@ h4 {
     font-size: 18px;
     display: block;
     max-width: 400px;
-    text-align: center;
+    filter: blur(3px);
     margin: 0 auto 15px auto;
     padding: 15px 20px;
     font-size: 0.85rem;
-    
+    text-align: left;
     color: #ffffff
 }
 
