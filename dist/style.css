@@ -96,35 +96,48 @@ h4 {
     width: 50px;
     position: relative;
     pointer-events: none;  
+    top: -64px;
+    right: 25px;
 }
 .discord2 {
     height: 50px;
     width: 50px;
     position: relative;
     pointer-events: none;  
+    top: -128px;
+    right: 79px;
 }
 .discord3 {
     height: 50px;
     width: 50px;
     position: relative;
     pointer-events: none;  
+    top: -192px;
+    right: 133px;
 }
 .discord4 {
     height: 50px;
     width: 50px;
     position: relative;
     pointer-events: none;  
+    top: 256px;
+    right: 187px;
+
 }
 .discord5 {
     height: 50px;
     width: 50px;
     position: relative;
     pointer-events: none;  
+    top: 320px;
+    right: 241px;
 }
 .discord6 {
     height: 50px;
     width: 50px;
     position: relative;
-    pointer-events: none;  
+    pointer-events: none;
+    top: 384px;
+    right: 295px;  
 }
 
