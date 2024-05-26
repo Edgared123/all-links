@@ -2,13 +2,11 @@ html {
     box-sizing: border-box;
     font-size: 100%
 }
-
 *,
 :after,
 :before {
     box-sizing: inherit
 }
-
 body {
     background-color: #000000;
     color: #fff;
@@ -16,11 +14,94 @@ body {
     text-align: center;
     font-family: Roboto, sans-serif
 }
+h2 {
+    font-size: 19px;
+    filter: blur(3px)
+}
 
+h4 {
+    font-size: 18px;
+    display: block;
+    max-width: 400px;
+    filter: blur(3px);
+    margin: 0 auto 15px auto;
+    padding: 15px 20px;
+    font-size: 0.85rem;
+    text-align: left;
+    color: #ffffff
+    filter: blur(3px);
+}
 .circle {
     width: 115px;
     height: 115px;
     position: relative;
+}
+.discord1 {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    pointer-events: none;  
+    top: -64px;
+    right: 25px;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.discord2 {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    pointer-events: none;  
+    top: -128px;
+    right: 79px;
+    animation: fadeInAnimation ease 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.discord3 {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    pointer-events: none;  
+    top: -192px;
+    right: 133px;
+    animation: fadeInAnimation ease 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.discord4 {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    pointer-events: none;  
+    top: -256px;
+    right: 187px;
+    animation: fadeInAnimation ease 6s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+}
+.discord5 {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    pointer-events: none;  
+    top: -320px;
+    right: 241px;
+    animation: fadeInAnimation ease 7s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+.discord6 {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    pointer-events: none;
+    top: -384px;
+    right: 295px;  
+    animation: fadeInAnimation ease 8s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 a.featured:hover,
@@ -30,7 +111,6 @@ a:hover {
     background: #000000;
     
 }
-
 a {
     display: block;
     max-width: 400px;
@@ -43,7 +123,6 @@ a {
     transition: all .2s ease-in-out
     
 }
-
 a.featured {
     position: relative;
     background-color: #ffffff;
@@ -74,91 +153,6 @@ a.featured:before {
     height: calc(100% - 4px);
     border: 0px solid #000000
 
-}
-h2 {
-    font-size: 19px;
-    filter: blur(3px)
-}
-
-h4 {
-    font-size: 18px;
-    display: block;
-    max-width: 400px;
-    filter: blur(3px);
-    margin: 0 auto 15px auto;
-    padding: 15px 20px;
-    font-size: 0.85rem;
-    text-align: left;
-    color: #ffffff
-    filter: blur(3px);
-}
-
-.discord1 {
-    height: 50px;
-    width: 50px;
-    position: inherit;
-    pointer-events: none;  
-    top: -64px;
-    right: 25px;
-    animation: fadeInAnimation ease 3s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-}
-.discord2 {
-    height: 50px;
-    width: 50px;
-    position: inherit;
-    pointer-events: none;  
-    top: -128px;
-    right: 79px;
-    animation: fadeInAnimation ease 4s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-}
-.discord3 {
-    height: 50px;
-    width: 50px;
-    position: inherit;
-    pointer-events: none;  
-    top: -192px;
-    right: 133px;
-    animation: fadeInAnimation ease 5s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-}
-.discord4 {
-    height: 50px;
-    width: 50px;
-    position: inherit;
-    pointer-events: none;  
-    top: -256px;
-    right: 187px;
-    animation: fadeInAnimation ease 6s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-
-}
-.discord5 {
-    height: 50px;
-    width: 50px;
-    position: inherit;
-    pointer-events: none;  
-    top: -320px;
-    right: 241px;
-    animation: fadeInAnimation ease 7s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-}
-.discord6 {
-    height: 50px;
-    width: 50px;
-    position: inherit;
-    pointer-events: none;
-    top: -384px;
-    right: 295px;  
-    animation: fadeInAnimation ease 8s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
 }
 
 
