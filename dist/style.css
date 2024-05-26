@@ -20,7 +20,7 @@ body {
 .circle {
     width: 115px;
     height: 115px;
-
+    position: relative;
 }
 
 a.featured:hover,
@@ -41,9 +41,10 @@ a {
     border: 2px solid #fff;
     text-decoration: none;
     transition: all .2s ease-in-out
+    
 }
 
-a.featured {
+a1.featured {
     position: relative;
     background-color: #ffffff;
     color: #000000;
@@ -51,18 +52,59 @@ a.featured {
     font-weight: 700;
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
+    animation-fill-mode: forwards;  
+}
+a2.featured {
+    position: relative;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 40px;
+    font-weight: 700;
+    animation: fadeInAnimation ease 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+a3.featured {
+    position: relative;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 40px;
+    font-weight: 700;
+    animation: fadeInAnimation ease 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+a4.featured {
+    position: relative;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 40px;
+    font-weight: 700;
+    animation: fadeInAnimation ease 6s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+a5.featured {
+    position: relative;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 40px;
+    font-weight: 700;
+    animation: fadeInAnimation ease 7s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+a6.featured {
+    position: relative;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 40px;
+    font-weight: 700;
+    animation: fadeInAnimation ease 8s;
+    animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
 
-@keyframes fadeInAnimation {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
 a.featured:before {
     content: "";
     
@@ -74,18 +116,9 @@ a.featured:before {
     border: 0px solid #000000
 
 }
-
-
-
-
-
-
 h2 {
     font-size: 19px;
     filter: blur(3px)
-    
-    
-    
 }
 
 h4 {
@@ -101,55 +134,81 @@ h4 {
     filter: blur(3px);
 }
 
-.discord {
+.discord1 {
     height: 50px;
     width: 50px;
-    position: relative;
+    position: fixed;
     pointer-events: none;  
     top: -64px;
     right: 25px;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 .discord2 {
     height: 50px;
     width: 50px;
-    position: relative;
+    position: fixed;
     pointer-events: none;  
     top: -128px;
     right: 79px;
+    animation: fadeInAnimation ease 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 .discord3 {
     height: 50px;
     width: 50px;
-    position: relative;
+    position: fixed;
     pointer-events: none;  
     top: -192px;
     right: 133px;
+    animation: fadeInAnimation ease 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 .discord4 {
     height: 50px;
     width: 50px;
-    position: relative;
+    position: fixed;
     pointer-events: none;  
     top: -256px;
     right: 187px;
+    animation: fadeInAnimation ease 6s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 
 }
 .discord5 {
     height: 50px;
     width: 50px;
-    position: relative;
+    position: fixed;
     pointer-events: none;  
     top: -320px;
     right: 241px;
+    animation: fadeInAnimation ease 7s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 .discord6 {
     height: 50px;
     width: 50px;
-    position: relative;
+    position: fixed;
     pointer-events: none;
     top: -384px;
     right: 295px;  
+    animation: fadeInAnimation ease 8s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
 
+    100% {
+        opacity: 1;
+    }
+}
 
 
