@@ -44,7 +44,7 @@ a {
     
 }
 
-a1.featured {
+a.featured {
     position: relative;
     background-color: #ffffff;
     color: #000000;
@@ -54,55 +54,14 @@ a1.featured {
     animation-iteration-count: 1;
     animation-fill-mode: forwards;  
 }
-a2.featured {
-    position: relative;
-    background-color: #ffffff;
-    color: #000000;
-    border-radius: 40px;
-    font-weight: 700;
-    animation: fadeInAnimation ease 4s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-}
-a3.featured {
-    position: relative;
-    background-color: #ffffff;
-    color: #000000;
-    border-radius: 40px;
-    font-weight: 700;
-    animation: fadeInAnimation ease 5s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-}
-a4.featured {
-    position: relative;
-    background-color: #ffffff;
-    color: #000000;
-    border-radius: 40px;
-    font-weight: 700;
-    animation: fadeInAnimation ease 6s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-}
-a5.featured {
-    position: relative;
-    background-color: #ffffff;
-    color: #000000;
-    border-radius: 40px;
-    font-weight: 700;
-    animation: fadeInAnimation ease 7s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-}
-a6.featured {
-    position: relative;
-    background-color: #ffffff;
-    color: #000000;
-    border-radius: 40px;
-    font-weight: 700;
-    animation: fadeInAnimation ease 8s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 a.featured:before {
@@ -137,7 +96,7 @@ h4 {
 .discord1 {
     height: 50px;
     width: 50px;
-    position: fixed;
+    position: inherit;
     pointer-events: none;  
     top: -64px;
     right: 25px;
@@ -148,7 +107,7 @@ h4 {
 .discord2 {
     height: 50px;
     width: 50px;
-    position: fixed;
+    position: inherit;
     pointer-events: none;  
     top: -128px;
     right: 79px;
@@ -159,7 +118,7 @@ h4 {
 .discord3 {
     height: 50px;
     width: 50px;
-    position: fixed;
+    position: inherit;
     pointer-events: none;  
     top: -192px;
     right: 133px;
@@ -170,7 +129,7 @@ h4 {
 .discord4 {
     height: 50px;
     width: 50px;
-    position: fixed;
+    position: inherit;
     pointer-events: none;  
     top: -256px;
     right: 187px;
@@ -182,7 +141,7 @@ h4 {
 .discord5 {
     height: 50px;
     width: 50px;
-    position: fixed;
+    position: inherit;
     pointer-events: none;  
     top: -320px;
     right: 241px;
@@ -193,7 +152,7 @@ h4 {
 .discord6 {
     height: 50px;
     width: 50px;
-    position: fixed;
+    position: inherit;
     pointer-events: none;
     top: -384px;
     right: 295px;  
@@ -201,14 +160,6 @@ h4 {
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
-@keyframes fadeInAnimation {
-    0% {
-        opacity: 0;
-    }
 
-    100% {
-        opacity: 1;
-    }
-}
 
 
