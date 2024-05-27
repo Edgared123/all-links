@@ -43,10 +43,11 @@ h4 {
     pointer-events: none;  
     top: -64px;
     right: 25px;
-    animation: fadeOutAnimation ease 3s;
+ 
     animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+    animation-delay: 3s;
 }
 .discord2 {
     height: 50px;
@@ -55,10 +56,11 @@ h4 {
     pointer-events: none;  
     top: -128px;
     right: 79px;
-    animation: fadeOutAnimation ease 5s;
+   
     animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+    animation-delay: 5s;
 }
 .discord3 {
     height: 50px;
@@ -67,10 +69,11 @@ h4 {
     pointer-events: none;  
     top: -192px;
     right: 133px;
-    animation: fadeOutAnimation ease 7s;
+    
     animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+    animation-delay: 7s;
 }
 .discord4 {
     height: 50px;
@@ -79,11 +82,11 @@ h4 {
     pointer-events: none;  
     top: -256px;
     right: 187px;
-    animation: fadeOutAnimation ease 9s;
+  
     animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-
+    animation-delay: 9s;
 }
 .discord5 {
     height: 50px;
@@ -92,10 +95,11 @@ h4 {
     pointer-events: none;  
     top: -320px;
     right: 241px;
-    animation: fadeOutAnimation ease 11s;
+
     animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+    animation-delay: 11s;
 }
 .discord6 {
     height: 50px;
@@ -104,10 +108,11 @@ h4 {
     pointer-events: none;
     top: -384px;
     right: 295px;  
-    animation: fadeOutAnimation ease 13s;
+
     animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+    animation-delay: 13s;
 }
 
 /*all of .featured*/
@@ -143,7 +148,6 @@ a.featured {
 
 a.featured:before {
     content: "";
-    
     position: absolute;
     top: 2px;
     left: 2px;
@@ -155,40 +159,40 @@ a.featured:before {
 
 /*link fade in effect*/
 #link1 {
-    animation: fadeOutAnimation ease 3s;
     animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+    animation-delay: 3s;
 }
 #link2 {
-    animation: fadeOutAnimation ease 5s;
     animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+    animation-delay: 5s;
 }
 #link3 {
-    animation: fadeOutAnimation ease 7s;
     animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+    animation-delay: 7s;
 }
 #link4 {
-    animation: fadeOutAnimation ease 9s;
     animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+    animation-delay: 9s;
 }
 #link5 {
-    animation: fadeOutAnimation ease 11s;
     animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+    animation-delay: 11s;
 }
 #link6 {
-    animation: fadeOutAnimation ease 13s;
     animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+    animation-delay: 13s;
 }
 @keyframes fadeInAnimation {
     0% {
@@ -197,14 +201,5 @@ a.featured:before {
 
     100% {
         opacity: 1;
-    }
-}
-@keyframes fadeOutAnimation {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 0;
     }
 }
