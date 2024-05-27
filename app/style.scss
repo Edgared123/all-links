@@ -14,9 +14,28 @@ body {
     text-align: center;
     font-family: 'Roboto', sans-serif;
 }
+h2 {
+    font-size: 19px;
+    
+    font-weight: normal
+    
+    
+}
 
+h4 {
+    font-size: 17px;
+    font-weight: 400px;
+    display: block;
+    max-width: 400px;
+    margin: 0 auto 15px auto;
+    padding: 15px 20px;
+    font-size: 0.85rem;
+    text-align: left;
+    position: relative;
+    color: #ffffff;
+}
 
-
+/*all of .featured*/
 a, a.featured {    
     &:hover {
         background-color: #000000;
@@ -57,25 +76,3 @@ a {
         }
     }
 }
-
-h2 {
-    font-size: 19px;
-    
-    font-weight: normal
-    
-    
-}
-
-h4 {
-    font-size: 17px;
-    font-weight: 400px;
-    display: block;
-    max-width: 400px;
-    margin: 0 auto 15px auto;
-    padding: 15px 20px;
-    font-size: 0.85rem;
-    text-align: left;
-    position: relative;
-    color: #ffffff;
-}
-
