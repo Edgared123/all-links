@@ -43,7 +43,8 @@ h4 {
     pointer-events: none;  
     top: -64px;
     right: 25px;
-    animation: fadeInAnimation ease 3s;
+    transition-delay: 3s;
+    animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
@@ -54,7 +55,8 @@ h4 {
     pointer-events: none;  
     top: -128px;
     right: 79px;
-    animation: fadeInAnimation ease 4s;
+    transition-delay: 5s;
+    animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
@@ -65,7 +67,8 @@ h4 {
     pointer-events: none;  
     top: -192px;
     right: 133px;
-    animation: fadeInAnimation ease 5s;
+    transition-delay: 7s;
+    animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
@@ -76,7 +79,8 @@ h4 {
     pointer-events: none;  
     top: -256px;
     right: 187px;
-    animation: fadeInAnimation ease 6s;
+    transition-delay: 9s;
+    animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 
@@ -88,7 +92,8 @@ h4 {
     pointer-events: none;  
     top: -320px;
     right: 241px;
-    animation: fadeInAnimation ease 7s;
+    transition-delay: 11s;
+    animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
@@ -99,7 +104,8 @@ h4 {
     pointer-events: none;
     top: -384px;
     right: 295px;  
-    animation: fadeInAnimation ease 8s;
+    transition-delay: 13s;
+    animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
@@ -135,7 +141,6 @@ a.featured {
     animation-fill-mode: forwards;  
 }
 
-
 a.featured:before {
     content: "";
     
@@ -150,32 +155,38 @@ a.featured:before {
 
 /*link fade in effect*/
 #link1 {
-    animation: fadeInAnimation ease 3s;
+    transition-delay: 3s;
+    animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
 #link2 {
-    animation: fadeInAnimation ease 4s;
+    transition-delay: 5s;
+    animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
 #link3 {
-    animation: fadeInAnimation ease 5s;
+    transition-delay: 7s;
+    animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
 #link4 {
-    animation: fadeInAnimation ease 6s;
+    transition-delay: 9s;
+    animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
 #link5 {
-    animation: fadeInAnimation ease 7s;
+    transition-delay: 11s;
+    animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
 #link6 {
-    animation: fadeInAnimation ease 8s;
+    transition-delay: 13s;
+    animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
