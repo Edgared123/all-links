@@ -43,7 +43,7 @@ h4 {
     pointer-events: none;  
     top: -64px;
     right: 25px;
- 
+    opacity: 0;
     animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
@@ -56,11 +56,11 @@ h4 {
     pointer-events: none;  
     top: -128px;
     right: 79px;
-   
+    opacity: 0;
     animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    animation-delay: 5s;
+    animation-delay: 4s;
 }
 .discord3 {
     height: 50px;
@@ -69,11 +69,11 @@ h4 {
     pointer-events: none;  
     top: -192px;
     right: 133px;
-    
+    opacity: 0;
     animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    animation-delay: 7s;
+    animation-delay: 5s;
 }
 .discord4 {
     height: 50px;
@@ -82,11 +82,11 @@ h4 {
     pointer-events: none;  
     top: -256px;
     right: 187px;
-  
+    opacity: 0;
     animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    animation-delay: 9s;
+    animation-delay: 6s;
 }
 .discord5 {
     height: 50px;
@@ -95,11 +95,11 @@ h4 {
     pointer-events: none;  
     top: -320px;
     right: 241px;
-
+    opacity: 0;
     animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    animation-delay: 11s;
+    animation-delay: 7s;
 }
 .discord6 {
     height: 50px;
@@ -108,11 +108,11 @@ h4 {
     pointer-events: none;
     top: -384px;
     right: 295px;  
-
+    opacity: 0;
     animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    animation-delay: 13s;
+    animation-delay: 8s;
 }
 
 /*all of .featured*/
@@ -132,7 +132,8 @@ a {
     color: #fff;
     border: 2px solid #fff;
     text-decoration: none;
-    transition: all .2s ease-in-out
+    transition: all .2s ease-in-out;
+    opacity: 0;
     
 }
 a.featured {
@@ -144,6 +145,7 @@ a.featured {
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;  
+    opacity: 0;
 }
 
 a.featured:before {
@@ -168,31 +170,31 @@ a.featured:before {
     animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    animation-delay: 5s;
+    animation-delay: 4s;
 }
 #link3 {
     animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    animation-delay: 7s;
+    animation-delay: 5s;
 }
 #link4 {
     animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    animation-delay: 9s;
+    animation-delay: 6s;
 }
 #link5 {
     animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    animation-delay: 11s;
+    animation-delay: 7s;
 }
 #link6 {
     animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    animation-delay: 13s;
+    animation-delay: 8s;
 }
 @keyframes fadeInAnimation {
     0% {
