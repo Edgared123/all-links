@@ -47,7 +47,7 @@ h4 {
     animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    animation-delay: 3s;
+    animation-delay: 2400ms;
 }
 .discord2 {
     height: 50px;
@@ -60,7 +60,7 @@ h4 {
     animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    animation-delay: 4s;
+    animation-delay: 2000s;
 }
 .discord3 {
     height: 50px;
@@ -73,7 +73,7 @@ h4 {
     animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    animation-delay: 5s;
+    animation-delay: 1600s;
 }
 .discord4 {
     height: 50px;
@@ -86,7 +86,7 @@ h4 {
     animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    animation-delay: 6s;
+    animation-delay: 1200s;
 }
 .discord5 {
     height: 50px;
@@ -99,7 +99,7 @@ h4 {
     animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    animation-delay: 7s;
+    animation-delay: 800ms;
 }
 .discord6 {
     height: 50px;
@@ -112,7 +112,7 @@ h4 {
     animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    animation-delay: 8s;
+    animation-delay: 400ms;
 }
 
 /*all of .featured*/
@@ -164,37 +164,37 @@ a.featured:before {
     animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    animation-delay: 3s;
+    animation-delay: 400ms;
 }
 #link2 {
     animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    animation-delay: 4s;
+    animation-delay: 800ms;
 }
 #link3 {
     animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    animation-delay: 5s;
+    animation-delay: 1200ms;
 }
 #link4 {
     animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    animation-delay: 6s;
+    animation-delay: 1600ms;
 }
 #link5 {
     animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    animation-delay: 7s;
+    animation-delay: 2000ms;
 }
 #link6 {
     animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    animation-delay: 8s;
+    animation-delay: 2400s;
 }
 @keyframes fadeInAnimation {
     0% {
