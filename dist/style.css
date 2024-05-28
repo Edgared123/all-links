@@ -200,7 +200,7 @@ a.featured:before {
     animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    animation-delay: 2400s;
+    animation-delay: 2400ms;
 }
 @keyframes fadeInAnimation {
     0% {
