@@ -20,25 +20,26 @@ h2 {
 }
 
 h4 {
-    font-size: 18px;
+
     display: block;
     max-width: 400px;
     filter: blur(3px);
     margin: 0 auto 15px auto;
     padding: 15px 20px;
-    font-size: 0.85rem;
+    font-size: 18px;
     text-align: left;
-    color: #ffffff
+    color: #ffffff;
     filter: blur(3px);
 }
+
 .circle {
     width: 115px;
     height: 115px;
     position: relative;
 }
 .discord1 {
-    height: 50px;
-    width: 50px;
+    height: 56px;
+    width: 56px;
     position: relative;
     pointer-events: none;  
     top: -64px;
@@ -47,7 +48,7 @@ h4 {
     animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    animation-delay: 2400ms;
+    animation-delay: 1200ms;
 }
 .discord2 {
     height: 50px;
@@ -60,7 +61,7 @@ h4 {
     animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    animation-delay: 2000ms;
+    animation-delay: 1000ms;
 }
 .discord3 {
     height: 50px;
@@ -73,7 +74,7 @@ h4 {
     animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    animation-delay: 1600ms;
+    animation-delay: 800ms;
 }
 .discord4 {
     height: 50px;
@@ -86,7 +87,7 @@ h4 {
     animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    animation-delay: 1200ms;
+    animation-delay: 600ms;
 }
 .discord5 {
     height: 50px;
@@ -99,7 +100,7 @@ h4 {
     animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    animation-delay: 800ms;
+    animation-delay: 400ms;
 }
 .discord6 {
     height: 50px;
@@ -112,10 +113,10 @@ h4 {
     animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    animation-delay: 400ms;
+    animation-delay: 200ms;
 }
 
-/*all of .featured*/
+
 a.featured:hover,
 a:hover {
     background-color: #000000;
@@ -165,42 +166,50 @@ a.featured:before {
     animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    animation-delay: 400ms;
+    animation-delay: 200ms;
 }
 #link2 {
     opacity: 0;
     animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    animation-delay: 800ms;
+    animation-delay: 400ms;
 }
 #link3 {
     opacity: 0;
     animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    animation-delay: 1200ms;
+    animation-delay: 600ms;
 }
 #link4 {
     opacity: 0;
     animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    animation-delay: 1600ms;
+    animation-delay: 800ms;
 }
 #link5 {
     opacity: 0;
     animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    animation-delay: 2000ms;
+    animation-delay: 1000ms;
 }
 #link6 {
     opacity: 0;
     animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    animation-delay: 2400ms;
+    animation-delay: 1200ms;
+}
+
+linkEMP {
+    opacity: 0;
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 1400ms;
 }
 @keyframes fadeInAnimation {
     0% {
@@ -211,3 +220,22 @@ a.featured:before {
         opacity: 1;
     }
 }
+
+.container {
+    position: relative;
+  }
+  
+  .centered {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 1400ms;
+    /* This moves the element up by half its height and left by half its width, effectively centering it */
+  }
