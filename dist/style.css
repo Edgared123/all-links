@@ -222,6 +222,7 @@ a.featured:before {
 
 .container {
     position: relative;
+    opacity: 0;
   }
   
   .centered {
