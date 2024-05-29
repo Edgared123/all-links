@@ -20,14 +20,13 @@ h2 {
 }
 
 h4 {
-
     display: block;
     max-width: 400px;
     filter: blur(3px);
     margin: 0 auto 15px auto;
     padding: 15px 20px;
-    font-size: 18px;
-    text-align: left;
+    font-size: 16px;
+    text-align: center;
     color: #ffffff;
     filter: blur(3px);
 }
@@ -38,8 +37,8 @@ h4 {
     position: relative;
 }
 .discord1 {
-    height: 56px;
-    width: 56px;
+    height: 50px;
+    width: 50px;
     position: relative;
     pointer-events: none;  
     top: -64px;
@@ -204,7 +203,7 @@ a.featured:before {
     animation-delay: 1200ms;
 }
 
-linkEMP {
+#linkEMP {
     opacity: 0;
     animation: fadeInAnimation ease 1s;
     animation-iteration-count: 1;
