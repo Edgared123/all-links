@@ -28,7 +28,7 @@ h4 {
     filter: blur(3px);
     margin: 0 auto 15px auto;
     padding: 15px 20px;
-    font-size: 16px;
+    font-size: 15px;
     text-align: center;
     color: #ffffff;
     filter: blur(3px);
@@ -87,215 +87,257 @@ a.featured:before {
     border: 0px solid #000000
 }
 
-/*all discord img */
-.discord1 {
-
-    height: 50px;
-
-    width: 50px;
+.linkCard1 {
 
     position: relative;
-
-    pointer-events: none;
-
-    top: -384px;
-
-    right: 25px;
-
+  
     opacity: 0;
-
+  
     animation: fadeInAnimation ease 500ms;
-
+  
     animation-iteration-count: 1;
-
+  
     animation-fill-mode: forwards;
-
+  
     animation-delay: 200ms;
-
-}
-
-.discord2 {
-
-    height: 50px;
-
+  
+  }
+  
+  .twitch1 {
+  
+    position: absolute;
+  
     width: 50px;
-
-    position: relative;
-
-    pointer-events: none;
-
-    top: -320px;
-
-    right: 79px;
-
-    opacity: 0;
-
-    animation: fadeInAnimation ease 500ms;
-
-    animation-iteration-count: 1;
-
-    animation-fill-mode: forwards;
-
-    animation-delay: 400ms;
-
-}
-
-.discord3 {
-
+  
     height: 50px;
-
-    width: 50px;
-
-    position: relative;
-
-    pointer-events: none;
-
-    top: -256px;
-
-    right: 133px;
-
+  
+    top: 50%;
+  
+    left: 50%;
+  
+    transform: translate(-50%, -50%);
+  
     opacity: 0;
-
+  
     animation: fadeInAnimation ease 500ms;
-
+  
     animation-iteration-count: 1;
-
+  
     animation-fill-mode: forwards;
-
-    animation-delay: 600ms;
-
-}
-
-.discord4 {
-
-    height: 50px;
-
-    width: 50px;
-
-    position: relative;
-
-    pointer-events: none;
-
-    top: -192px;
-
-    right: 187px;
-
-    opacity: 0;
-
-    animation: fadeInAnimation ease 500ms;
-
-    animation-iteration-count: 1;
-
-    animation-fill-mode: forwards;
-
-    animation-delay: 800ms;
-
-}
-
-.discord5 {
-
-    height: 50px;
-
-    width: 50px;
-
-    position: relative;
-
-    pointer-events: none;
-
-    top: -128px;
-
-    right: 241px;
-
-    opacity: 0;
-
-    animation: fadeInAnimation ease 500ms;
-
-    animation-iteration-count: 1;
-
-    animation-fill-mode: forwards;
-
-    animation-delay: 1000ms;
-
-}
-
-.discord6 {
-
-    height: 50px;
-
-    width: 50px;
-
-    position: relative;
-
-    pointer-events: none;
-
-    top: -64px;
-
-    right: 295px;
-
-    opacity: 0;
-
-    animation: fadeInAnimation ease 500ms;
-
-    animation-iteration-count: 1;
-
-    animation-fill-mode: forwards;
-
-    animation-delay: 1200ms;
-
-}
-
-
-
-
-
-/*link fade in effect*/
-#link1 {
-    opacity: 0;
-    animation: fadeInAnimation ease 500ms;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
+  
     animation-delay: 200ms;
-}
-
-#link2 {
+  
+  }
+  
+  .linkCard2 {
+  
+    position: relative;
+  
     opacity: 0;
+  
     animation: fadeInAnimation ease 500ms;
+  
     animation-iteration-count: 1;
+  
     animation-fill-mode: forwards;
+  
     animation-delay: 400ms;
-}
-
-#link3 {
+  
+  }
+  
+  .twitch2 {
+  
+    position: absolute;
+  
+    width: 50px;
+  
+    height: 50px;
+  
+    top: 50%;
+  
+    left: 50%;
+  
+    transform: translate(-50%, -50%);
+  
     opacity: 0;
+  
     animation: fadeInAnimation ease 500ms;
+  
     animation-iteration-count: 1;
+  
     animation-fill-mode: forwards;
+  
+    animation-delay: 400ms;
+  
+  }
+  
+  .linkCard3 {
+  
+    position: relative;
+  
+    opacity: 0;
+  
+    animation: fadeInAnimation ease 500ms;
+  
+    animation-iteration-count: 1;
+  
+    animation-fill-mode: forwards;
+  
     animation-delay: 600ms;
-}
-
-#link4 {
+  
+  }
+  
+  .twitch3 {
+  
+    position: absolute;
+  
+    width: 50px;
+  
+    height: 50px;
+  
+    top: 50%;
+  
+    left: 50%;
+  
+    transform: translate(-50%, -50%);
+  
     opacity: 0;
+  
     animation: fadeInAnimation ease 500ms;
+  
     animation-iteration-count: 1;
+  
     animation-fill-mode: forwards;
+  
+    animation-delay: 600ms;
+  
+  }
+  
+  .linkCard4 {
+  
+    position: relative;
+  
+    opacity: 0;
+  
+    animation: fadeInAnimation ease 500ms;
+  
+    animation-iteration-count: 1;
+  
+    animation-fill-mode: forwards;
+  
     animation-delay: 800ms;
-}
-
-#link5 {
+  
+  }
+  
+  .twitch4 {
+  
+    position: absolute;
+  
+    width: 50px;
+  
+    height: 50px;
+  
+    top: 50%;
+  
+    left: 50%;
+  
+    transform: translate(-50%, -50%);
+  
     opacity: 0;
+  
     animation: fadeInAnimation ease 500ms;
+  
     animation-iteration-count: 1;
+  
     animation-fill-mode: forwards;
+  
+    animation-delay: 800ms;
+  
+  }
+  
+  .linkCard5 {
+  
+    position: relative;
+  
+    opacity: 0;
+  
+    animation: fadeInAnimation ease 500ms;
+  
+    animation-iteration-count: 1;
+  
+    animation-fill-mode: forwards;
+  
     animation-delay: 1000ms;
-}
-
-#link6 {
+  
+  }
+  
+  .twitch5 {
+  
+    position: absolute;
+  
+    width: 50px;
+  
+    height: 50px;
+  
+    top: 50%;
+  
+    left: 50%;
+  
+    transform: translate(-50%, -50%);
+  
     opacity: 0;
+  
     animation: fadeInAnimation ease 500ms;
+  
     animation-iteration-count: 1;
+  
     animation-fill-mode: forwards;
+  
+    animation-delay: 1000ms;
+  
+  }
+  
+  .linkCard6 {
+  
+    position: relative;
+  
+    opacity: 0;
+  
+    animation: fadeInAnimation ease 500ms;
+  
+    animation-iteration-count: 1;
+  
+    animation-fill-mode: forwards;
+  
+    animation-delay: 1000ms;
+  
+  }
+  
+  .twitch6 {
+  
+    position: absolute;
+  
+    width: 50px;
+  
+    height: 50px;
+  
+    top: 50%;
+  
+    left: 50%;
+  
+    transform: translate(-50%, -50%);
+  
+    opacity: 0;
+  
+    animation: fadeInAnimation ease 500ms;
+  
+    animation-iteration-count: 1;
+  
+    animation-fill-mode: forwards;
+  
     animation-delay: 1200ms;
-}
+  
+  }
 
 @keyframes fadeInAnimation {
     0% {
