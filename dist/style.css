@@ -2,6 +2,7 @@ html {
     box-sizing: border-box;
     font-size: 100%
 }
+
 *,
 :after,
 :before {
@@ -45,8 +46,9 @@ a:hover {
     background-color: #000000;
     color: #fff;
     background: #000000;
-    
+
 }
+
 a {
     opacity: 0;
     display: block;
@@ -58,9 +60,10 @@ a {
     border: 2px solid #fff;
     text-decoration: none;
     transition: all .2s ease-in-out;
-    
-    
+
+
 }
+
 a.featured {
     opacity: 0;
     position: relative;
@@ -70,100 +73,180 @@ a.featured {
     font-weight: 700;
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
-    animation-fill-mode: forwards;  
-    
+    animation-fill-mode: forwards;
+
 }
 
 a.featured:before {
     content: "";
-    
+
     top: 2px;
     left: 2px;
     width: calc(100% - 4px);
     height: calc(100% - 4px);
     border: 0px solid #000000
-
 }
 
 /*all discord img */
-.discord6 {
-    height: 50px;
-    width: 50px;
-    position: relative;
-    pointer-events: none;  
-    top: -64px;
-    right: 25px;
-    opacity: 0;
-    animation: fadeInAnimation ease 500ms;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-delay: 1200ms;
-}
-.discord5 {
-    height: 50px;
-    width: 50px;
-    position: relative;
-    pointer-events: none;  
-    top: -128px;
-    right: 79px;
-    opacity: 0;
-    animation: fadeInAnimation ease 500ms;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-delay: 1000ms;
-}
-.discord4 {
-    height: 50px;
-    width: 50px;
-    position: relative;
-    pointer-events: none;  
-    top: -192px;
-    right: 133px;
-    opacity: 0;
-    animation: fadeInAnimation ease 500ms;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-delay: 800ms;
-}
-.discord3 {
-    height: 50px;
-    width: 50px;
-    position: relative;
-    pointer-events: none;  
-    top: -256px;
-    right: 187px;
-    opacity: 0;
-    animation: fadeInAnimation ease 500ms;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-delay: 600ms;
-}
-.discord2 {
-    height: 50px;
-    width: 50px;
-    position: relative;
-    pointer-events: none;  
-    top: -320px;
-    right: 241px;
-    opacity: 0;
-    animation: fadeInAnimation ease 500ms;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-    animation-delay: 400ms;
-}
 .discord1 {
+
     height: 50px;
+
     width: 50px;
+
     position: relative;
+
     pointer-events: none;
+
     top: -384px;
-    right: 295px;  
+
+    right: 25px;
+
     opacity: 0;
+
     animation: fadeInAnimation ease 500ms;
+
     animation-iteration-count: 1;
+
     animation-fill-mode: forwards;
+
     animation-delay: 200ms;
+
 }
+
+.discord2 {
+
+    height: 50px;
+
+    width: 50px;
+
+    position: relative;
+
+    pointer-events: none;
+
+    top: -320px;
+
+    right: 79px;
+
+    opacity: 0;
+
+    animation: fadeInAnimation ease 500ms;
+
+    animation-iteration-count: 1;
+
+    animation-fill-mode: forwards;
+
+    animation-delay: 400ms;
+
+}
+
+.discord3 {
+
+    height: 50px;
+
+    width: 50px;
+
+    position: relative;
+
+    pointer-events: none;
+
+    top: -256px;
+
+    right: 133px;
+
+    opacity: 0;
+
+    animation: fadeInAnimation ease 500ms;
+
+    animation-iteration-count: 1;
+
+    animation-fill-mode: forwards;
+
+    animation-delay: 600ms;
+
+}
+
+.discord4 {
+
+    height: 50px;
+
+    width: 50px;
+
+    position: relative;
+
+    pointer-events: none;
+
+    top: -192px;
+
+    right: 187px;
+
+    opacity: 0;
+
+    animation: fadeInAnimation ease 500ms;
+
+    animation-iteration-count: 1;
+
+    animation-fill-mode: forwards;
+
+    animation-delay: 800ms;
+
+}
+
+.discord5 {
+
+    height: 50px;
+
+    width: 50px;
+
+    position: relative;
+
+    pointer-events: none;
+
+    top: -128px;
+
+    right: 241px;
+
+    opacity: 0;
+
+    animation: fadeInAnimation ease 500ms;
+
+    animation-iteration-count: 1;
+
+    animation-fill-mode: forwards;
+
+    animation-delay: 1000ms;
+
+}
+
+.discord6 {
+
+    height: 50px;
+
+    width: 50px;
+
+    position: relative;
+
+    pointer-events: none;
+
+    top: -64px;
+
+    right: 295px;
+
+    opacity: 0;
+
+    animation: fadeInAnimation ease 500ms;
+
+    animation-iteration-count: 1;
+
+    animation-fill-mode: forwards;
+
+    animation-delay: 1200ms;
+
+}
+
+
+
+
 
 /*link fade in effect*/
 #link1 {
@@ -173,6 +256,7 @@ a.featured:before {
     animation-fill-mode: forwards;
     animation-delay: 200ms;
 }
+
 #link2 {
     opacity: 0;
     animation: fadeInAnimation ease 500ms;
@@ -180,6 +264,7 @@ a.featured:before {
     animation-fill-mode: forwards;
     animation-delay: 400ms;
 }
+
 #link3 {
     opacity: 0;
     animation: fadeInAnimation ease 500ms;
@@ -187,6 +272,7 @@ a.featured:before {
     animation-fill-mode: forwards;
     animation-delay: 600ms;
 }
+
 #link4 {
     opacity: 0;
     animation: fadeInAnimation ease 500ms;
@@ -194,6 +280,7 @@ a.featured:before {
     animation-fill-mode: forwards;
     animation-delay: 800ms;
 }
+
 #link5 {
     opacity: 0;
     animation: fadeInAnimation ease 500ms;
@@ -201,6 +288,7 @@ a.featured:before {
     animation-fill-mode: forwards;
     animation-delay: 1000ms;
 }
+
 #link6 {
     opacity: 0;
     animation: fadeInAnimation ease 500ms;
