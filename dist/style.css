@@ -176,8 +176,14 @@ a.featured:before {
 }
 
 
-
 /*all discord img */
+
+.discord-images img {
+  right: 10px;
+  top: 10px;
+  
+
+}
 
 .discord1 {
 
@@ -191,7 +197,7 @@ a.featured:before {
 
 
 
-  position: static;
+  position: relative;
 
 
 
@@ -199,11 +205,7 @@ a.featured:before {
 
 
 
-  top: -384px;
 
-
-
-  right: 25px;
 
 
 
@@ -243,7 +245,7 @@ a.featured:before {
 
 
 
-  position: static;
+  position: relative;
 
 
 
@@ -251,11 +253,6 @@ a.featured:before {
 
 
 
-  top: -320px;
-
-
-
-  right: 79px;
 
 
 
@@ -295,7 +292,7 @@ a.featured:before {
 
 
 
-  position: static;
+  position: relative;
 
 
 
@@ -303,11 +300,6 @@ a.featured:before {
 
 
 
-  top: -256px;
-
-
-
-  right: 133px;
 
 
 
@@ -347,7 +339,7 @@ a.featured:before {
 
 
 
-  position: static;
+  position: relative;
 
 
 
@@ -355,11 +347,6 @@ a.featured:before {
 
 
 
-  top: -192px;
-
-
-
-  right: 187px;
 
 
 
@@ -399,7 +386,7 @@ a.featured:before {
 
 
 
-  position: static;
+  position: relative;
 
 
 
@@ -407,11 +394,7 @@ a.featured:before {
 
 
 
-  top: -128px;
 
-
-
-  right: 241px;
 
 
 
@@ -451,7 +434,7 @@ a.featured:before {
 
 
 
-  position: static;
+  position: relative;
 
 
 
@@ -459,11 +442,7 @@ a.featured:before {
 
 
 
-  top: -64px;
 
-
-
-  right: 295px;
 
 
 
