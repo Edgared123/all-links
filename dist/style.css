@@ -1,350 +1,616 @@
 html {
-    box-sizing: border-box;
-    font-size: 100%
+
+  box-sizing: border-box;
+
+  font-size: 100%
+
 }
+
+
 
 *,
+
 :after,
+
 :before {
-    box-sizing: inherit
+
+  box-sizing: inherit
+
 }
+
+
 
 body {
-    background-color: #000000;
-    color: #fff;
-    min-height: 100vh;
-    text-align: center;
-    font-family: Roboto, sans-serif
+
+  background-color: #000000;
+
+  color: #fff;
+
+  min-height: 100vh;
+
+  text-align: center;
+
+  font-family: Roboto, sans-serif
+
 }
+
+
 
 h2 {
-    font-size: 19px;
-    filter: blur(3px)
+
+  font-size: 19px;
+
+  filter: blur(3px)
+
 }
+
+
 
 h4 {
-    display: block;
-    max-width: 400px;
-    filter: blur(3px);
-    margin: 0 auto 15px auto;
-    padding: 15px 20px;
-    font-size: 15px;
-    text-align: center;
-    color: #ffffff;
-    filter: blur(3px);
+
+  display: block;
+
+  max-width: 400px;
+
+  filter: blur(3px);
+
+  margin: 0 auto 15px auto;
+
+  padding: 15px 20px;
+
+  font-size: 16px;
+
+  text-align: center;
+
+  color: #ffffff;
+
+  filter: blur(3px);
+
 }
 
+
+
 .circle {
-    width: 115px;
-    height: 115px;
-    position: relative;
+
+  width: 115px;
+
+  height: 115px;
+
+  position: relative;
+  opacity: .4;
+
 }
+
+
+
 
 
 a.featured:hover,
+
 a:hover {
-    background-color: #000000;
-    color: #fff;
-    background: #000000;
+
+  background-color: #000000;
+
+  color: #fff;
+
+  background: #000000;
+
+
 
 }
+
+
 
 a {
-    opacity: 0;
-    display: block;
-    max-width: 400px;
-    margin: 0 auto 15px;
-    padding: 15px 20px;
-    font-size: .85rem;
-    color: #fff;
-    border: 2px solid #fff;
-    text-decoration: none;
-    transition: all .2s ease-in-out;
+
+  opacity: 0;
+
+  display: block;
+
+  max-width: 400px;
+
+  margin: 0 auto 15px;
+
+  padding: 15px 20px;
+
+  font-size: .85rem;
+
+  color: #fff;
+
+  border: 2px solid #fff;
+
+  text-decoration: none;
+
+  transition: all .2s ease-in-out;
+
+
+
 
 
 }
+
+
 
 a.featured {
-    opacity: 0;
-    position: relative;
-    background-color: #ffffff;
-    color: #000000;
-    border-radius: 40px;
-    font-weight: 700;
-    animation: fadeInAnimation ease 3s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
+
+  opacity: 0;
+
+  position: relative;
+
+  background-color: #ffffff;
+
+  color: #000000;
+
+  border-radius: 40px;
+
+  font-weight: 700;
+
+  animation: fadeInAnimation ease 3s;
+
+  animation-iteration-count: 1;
+
+  animation-fill-mode: forwards;
+
+
 
 }
+
+
 
 a.featured:before {
-    content: "";
 
-    top: 2px;
-    left: 2px;
-    width: calc(100% - 4px);
-    height: calc(100% - 4px);
-    border: 0px solid #000000
+  content: "";
+
+
+
+  top: 2px;
+
+  left: 2px;
+
+  width: calc(100% - 4px);
+
+  height: calc(100% - 4px);
+
+  border: 0px solid #000000
+
 }
 
-.linkCard1 {
 
-    position: relative;
-  
-    opacity: 0;
-  
-    animation: fadeInAnimation ease 500ms;
-  
-    animation-iteration-count: 1;
-  
-    animation-fill-mode: forwards;
-  
-    animation-delay: 200ms;
-  
-  }
-  
-  .twitch1 {
-  
-    position: absolute;
-  
-    width: 50px;
-  
-    height: 50px;
-  
-    top: 50%;
-  
-    left: 50%;
-  
-    transform: translate(-50%, -50%);
-  
-    opacity: 0;
-  
-    animation: fadeInAnimation ease 500ms;
-  
-    animation-iteration-count: 1;
-  
-    animation-fill-mode: forwards;
-  
-    animation-delay: 200ms;
-  
-  }
-  
-  .linkCard2 {
-  
-    position: relative;
-  
-    opacity: 0;
-  
-    animation: fadeInAnimation ease 500ms;
-  
-    animation-iteration-count: 1;
-  
-    animation-fill-mode: forwards;
-  
-    animation-delay: 400ms;
-  
-  }
-  
-  .twitch2 {
-  
-    position: absolute;
-  
-    width: 50px;
-  
-    height: 50px;
-  
-    top: 50%;
-  
-    left: 50%;
-  
-    transform: translate(-50%, -50%);
-  
-    opacity: 0;
-  
-    animation: fadeInAnimation ease 500ms;
-  
-    animation-iteration-count: 1;
-  
-    animation-fill-mode: forwards;
-  
-    animation-delay: 400ms;
-  
-  }
-  
-  .linkCard3 {
-  
-    position: relative;
-  
-    opacity: 0;
-  
-    animation: fadeInAnimation ease 500ms;
-  
-    animation-iteration-count: 1;
-  
-    animation-fill-mode: forwards;
-  
-    animation-delay: 600ms;
-  
-  }
-  
-  .twitch3 {
-  
-    position: absolute;
-  
-    width: 50px;
-  
-    height: 50px;
-  
-    top: 50%;
-  
-    left: 50%;
-  
-    transform: translate(-50%, -50%);
-  
-    opacity: 0;
-  
-    animation: fadeInAnimation ease 500ms;
-  
-    animation-iteration-count: 1;
-  
-    animation-fill-mode: forwards;
-  
-    animation-delay: 600ms;
-  
-  }
-  
-  .linkCard4 {
-  
-    position: relative;
-  
-    opacity: 0;
-  
-    animation: fadeInAnimation ease 500ms;
-  
-    animation-iteration-count: 1;
-  
-    animation-fill-mode: forwards;
-  
-    animation-delay: 800ms;
-  
-  }
-  
-  .twitch4 {
-  
-    position: absolute;
-  
-    width: 50px;
-  
-    height: 50px;
-  
-    top: 50%;
-  
-    left: 50%;
-  
-    transform: translate(-50%, -50%);
-  
-    opacity: 0;
-  
-    animation: fadeInAnimation ease 500ms;
-  
-    animation-iteration-count: 1;
-  
-    animation-fill-mode: forwards;
-  
-    animation-delay: 800ms;
-  
-  }
-  
-  .linkCard5 {
-  
-    position: relative;
-  
-    opacity: 0;
-  
-    animation: fadeInAnimation ease 500ms;
-  
-    animation-iteration-count: 1;
-  
-    animation-fill-mode: forwards;
-  
-    animation-delay: 1000ms;
-  
-  }
-  
-  .twitch5 {
-  
-    position: absolute;
-  
-    width: 50px;
-  
-    height: 50px;
-  
-    top: 50%;
-  
-    left: 50%;
-  
-    transform: translate(-50%, -50%);
-  
-    opacity: 0;
-  
-    animation: fadeInAnimation ease 500ms;
-  
-    animation-iteration-count: 1;
-  
-    animation-fill-mode: forwards;
-  
-    animation-delay: 1000ms;
-  
-  }
-  
-  .linkCard6 {
-  
-    position: relative;
-  
-    opacity: 0;
-  
-    animation: fadeInAnimation ease 500ms;
-  
-    animation-iteration-count: 1;
-  
-    animation-fill-mode: forwards;
-  
-    animation-delay: 1000ms;
-  
-  }
-  
-  .twitch6 {
-  
-    position: absolute;
-  
-    width: 50px;
-  
-    height: 50px;
-  
-    top: 50%;
-  
-    left: 50%;
-  
-    transform: translate(-50%, -50%);
-  
-    opacity: 0;
-  
-    animation: fadeInAnimation ease 500ms;
-  
-    animation-iteration-count: 1;
-  
-    animation-fill-mode: forwards;
-  
-    animation-delay: 1200ms;
-  
-  }
+
+/*all discord img */
+
+.discord1 {
+
+
+
+  height: 50px;
+
+
+
+  width: 50px;
+
+
+
+  position: relative;
+
+
+
+  pointer-events: none;
+
+
+
+  top: -384px;
+
+
+
+  right: 25px;
+
+
+
+  opacity: 0;
+
+
+
+  animation: fadeInAnimation ease 500ms;
+
+
+
+  animation-iteration-count: 1;
+
+
+
+  animation-fill-mode: forwards;
+
+
+
+  animation-delay: 200ms;
+
+
+
+}
+
+
+
+.discord2 {
+
+
+
+  height: 50px;
+
+
+
+  width: 50px;
+
+
+
+  position: relative;
+
+
+
+  pointer-events: none;
+
+
+
+  top: -320px;
+
+
+
+  right: 79px;
+
+
+
+  opacity: 0;
+
+
+
+  animation: fadeInAnimation ease 500ms;
+
+
+
+  animation-iteration-count: 1;
+
+
+
+  animation-fill-mode: forwards;
+
+
+
+  animation-delay: 400ms;
+
+
+
+}
+
+
+
+.discord3 {
+
+
+
+  height: 50px;
+
+
+
+  width: 50px;
+
+
+
+  position: relative;
+
+
+
+  pointer-events: none;
+
+
+
+  top: -256px;
+
+
+
+  right: 133px;
+
+
+
+  opacity: 0;
+
+
+
+  animation: fadeInAnimation ease 500ms;
+
+
+
+  animation-iteration-count: 1;
+
+
+
+  animation-fill-mode: forwards;
+
+
+
+  animation-delay: 600ms;
+
+
+
+}
+
+
+
+.discord4 {
+
+
+
+  height: 50px;
+
+
+
+  width: 50px;
+
+
+
+  position: relative;
+
+
+
+  pointer-events: none;
+
+
+
+  top: -192px;
+
+
+
+  right: 187px;
+
+
+
+  opacity: 0;
+
+
+
+  animation: fadeInAnimation ease 500ms;
+
+
+
+  animation-iteration-count: 1;
+
+
+
+  animation-fill-mode: forwards;
+
+
+
+  animation-delay: 800ms;
+
+
+
+}
+
+
+
+.discord5 {
+
+
+
+  height: 50px;
+
+
+
+  width: 50px;
+
+
+
+  position: relative;
+
+
+
+  pointer-events: none;
+
+
+
+  top: -128px;
+
+
+
+  right: 241px;
+
+
+
+  opacity: 0;
+
+
+
+  animation: fadeInAnimation ease 500ms;
+
+
+
+  animation-iteration-count: 1;
+
+
+
+  animation-fill-mode: forwards;
+
+
+
+  animation-delay: 1000ms;
+
+
+
+}
+
+
+
+.discord6 {
+
+
+
+  height: 50px;
+
+
+
+  width: 50px;
+
+
+
+  position: relative;
+
+
+
+  pointer-events: none;
+
+
+
+  top: -64px;
+
+
+
+  right: 295px;
+
+
+
+  opacity: 0;
+
+
+
+  animation: fadeInAnimation ease 500ms;
+
+
+
+  animation-iteration-count: 1;
+
+
+
+  animation-fill-mode: forwards;
+
+
+
+  animation-delay: 1200ms;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*link fade in effect*/
+
+#link1 {
+
+  opacity: 0;
+
+  animation: fadeInAnimation ease 500ms;
+
+  animation-iteration-count: 1;
+
+  animation-fill-mode: forwards;
+
+  animation-delay: 200ms;
+
+}
+
+
+
+#link2 {
+
+  opacity: 0;
+
+  animation: fadeInAnimation ease 500ms;
+
+  animation-iteration-count: 1;
+
+  animation-fill-mode: forwards;
+
+  animation-delay: 400ms;
+
+}
+
+
+
+#link3 {
+
+  opacity: 0;
+
+  animation: fadeInAnimation ease 500ms;
+
+  animation-iteration-count: 1;
+
+  animation-fill-mode: forwards;
+
+  animation-delay: 600ms;
+
+}
+
+
+
+#link4 {
+
+  opacity: 0;
+
+  animation: fadeInAnimation ease 500ms;
+
+  animation-iteration-count: 1;
+
+  animation-fill-mode: forwards;
+
+  animation-delay: 800ms;
+
+}
+
+
+
+#link5 {
+
+  opacity: 0;
+
+  animation: fadeInAnimation ease 500ms;
+
+  animation-iteration-count: 1;
+
+  animation-fill-mode: forwards;
+
+  animation-delay: 1000ms;
+
+}
+
+
+
+#link6 {
+
+  opacity: 0;
+
+  animation: fadeInAnimation ease 500ms;
+
+  animation-iteration-count: 1;
+
+  animation-fill-mode: forwards;
+
+  animation-delay: 1200ms;
+
+}
+
+
 
 @keyframes fadeInAnimation {
-    0% {
-        opacity: 0;
-    }
 
-    100% {
-        opacity: 1;
-    }
+  0% {
+
+      opacity: 0;
+
+  }
+
+
+
+  100% {
+
+      opacity: 1;
+
+  }
+
 }
