@@ -18,7 +18,19 @@ h1 {
 img {
   width: 50px;
 }
-
+h7 {
+  text-align: center;
+  display: block;
+  max-width: 400px;
+  margin: 0 auto 15px;
+  width: 400px; /* Adjust based on your needs */
+  height: 15px; /* Adjust based on your needs */
+  background-color: #141414; /* Grey color */
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
+.image-container {
+  margin: 0 auto; /* Adjust as needed */
+}
 h6 {
   text-align: center;
   display: block;
@@ -69,6 +81,10 @@ h2 {
 
   text-align: center;
 
+  position: relative;
+
+  top: 15px;
+
 }
 
 
@@ -85,7 +101,7 @@ h4 {
 
   padding: 15px 20px;
 
-  font-size: 16px;
+  font-size: 14px;
 
   text-align: center;
 
