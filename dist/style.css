@@ -5,18 +5,12 @@ html {
   font-size: 100%
 
 }
-body, html {
-  height: 100%;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-.profile-pic {
+
+h1 {
   width: 100px; /* Adjust based on your needs */
   height: 100px; /* Adjust based on your needs */
-  background-color: #0d0909; /* Grey color */
+  background-color: #181515; /* Grey color */
   box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2); /* Shadow effect */
 }
 
