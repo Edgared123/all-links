@@ -5,7 +5,16 @@ html {
   font-size: 100%
 
 }
-
+h1 {
+  text-align: center;
+  display: block;
+  max-width: 400px;
+  margin: 0 auto 15px;
+  width: 400px; /* Adjust based on your needs */
+  height: 115px; /* Adjust based on your needs */
+  background-color: #141414; /* Grey color */
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
 img {
   width: 50px;
 }
