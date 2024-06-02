@@ -6,19 +6,24 @@ html {
 
 }
 
+img {
+  width: 50px;
+}
 
-h1 {
+h6 {
+  text-align: center;
   display: block;
   max-width: 400px;
   margin: 0 auto 15px;
-  width: 115px; /* Adjust based on your needs */
+  width: 400px; /* Adjust based on your needs */
   height: 115px; /* Adjust based on your needs */
   background-color: #141414; /* Grey color */
   box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2); /* Shadow effect */
 }
-
-
-
+h6 img {
+  display: block;
+  margin: 0 auto 15px;
+}
 *,
 
 :after,
@@ -39,7 +44,7 @@ body {
 
   min-height: 100vh;
 
-  text-align: center;
+  
 
   font-family: Roboto, sans-serif
 
@@ -51,7 +56,9 @@ h2 {
 
   font-size: 19px;
 
-  filter: blur(3px)
+  filter: blur(3px);
+
+  text-align: center;
 
 }
 
@@ -144,6 +151,8 @@ a.featured {
   animation-iteration-count: 1;
 
   animation-fill-mode: forwards;
+
+  text-align: center;
 
 
 
@@ -482,48 +491,7 @@ a.featured:before {
 
 
 }
-.discord7 {
 
-
-
-  height: 50px;
-
-
-
-  width: 50px;
-
-
-
-  position: relative;
-
-
-
-  pointer-events: none;
-
-
-
-
-  opacity: 0;
-
-
-
-  animation: fadeInAnimation ease 500ms;
-
-
-
-  animation-iteration-count: 1;
-
-
-
-  animation-fill-mode: forwards;
-
-
-
-  animation-delay: 1400ms;
-
-
-
-}
 /*link fade in effect*/
 #link1 {
   margin: 0 auto 15px;
