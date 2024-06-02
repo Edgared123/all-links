@@ -72,13 +72,12 @@ h4 {
 
 .circle {
 
-  width: 115px;
+  width: 141px;
 
-  height: 115px;
+  height: 141px;
 
   position: relative;
-  opacity: .4;
-
+ 
 }
 
 
@@ -179,13 +178,13 @@ a.featured:before {
 /*all discord img */
 
 .discord-images img {
-  right: 10px;
+  right: 30px;
   top: 10px;
   
 
 }
 
-.discord1 {
+#discord1 {
 
 
 
@@ -233,7 +232,7 @@ a.featured:before {
 
 
 
-.discord2 {
+#discord2 {
 
 
 
@@ -280,7 +279,7 @@ a.featured:before {
 
 
 
-.discord3 {
+#discord3 {
 
 
 
@@ -327,7 +326,7 @@ a.featured:before {
 
 
 
-.discord4 {
+#discord4 {
 
 
 
@@ -374,8 +373,8 @@ a.featured:before {
 
 
 
-.discord5 {
-
+#discord5 {
+.
 
 
   height: 50px;
@@ -422,7 +421,7 @@ a.featured:before {
 
 
 
-.discord6 {
+#discord6 {
 
 
 
