@@ -52,7 +52,7 @@ h4 {
 
   max-width: 400px;
 
-  filter: blur(3px);
+  filter: blur(1px);
 
   margin: 0 auto 15px auto;
 
@@ -130,6 +130,7 @@ a {
 
 
 
+
 a.featured {
 
   opacity: 0;
@@ -177,294 +178,96 @@ a.featured:before {
 
 /*all discord img */
 
+#discord1 {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  pointer-events: none;
+  opacity: 0;
+  animation: fadeInAnimation ease 500ms;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: 200ms;
+  display: block;
+  margin: -9px auto 15px;
+
+  align-items: center;
+}
+#discord2 {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  pointer-events: none;
+  opacity: 0;
+  animation: fadeInAnimation ease 500ms;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: 400ms;
+  margin: 15px auto 15px;
+  top: 8px;
+}
+#discord3 {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  pointer-events: none;
+  top: 7px;
+  opacity: 0;
+  animation: fadeInAnimation ease 500ms;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: 600ms;
+  margin: 14px auto 1px;
+}
+#discord4 {
+  
+  height: 50px;
+  width: 50px;
+  position: relative;
+  pointer-events: none;
+  opacity: 0;
+  animation: fadeInAnimation ease 500ms;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: 800ms;
+  margin: 12px auto 13px;
+}
+
+#discord5 {
+  width: 50px;
+  position: relative;
+  pointer-events: none;
+  opacity: 0;
+  animation: fadeInAnimation ease 500ms;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: 1000ms;
+}
+#discord6 {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  pointer-events: none;
+  opacity: 0;
+  animation: fadeInAnimation ease 500ms;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  animation-delay: 1200ms;
+}
+
 .discord-images img {
   right: 30px;
   top: 10px;
-  
-
+  display: block;
+  margin: 12px auto 15px;
+}
+.discord-images {
+  position: relative;
+  top: -385px;
 }
 
-#discord1 {
-
-
-
-  height: 50px;
-
-
-
-  width: 50px;
-
-
-
-  position: relative;
-
-
-
-  pointer-events: none;
-
-
-
-
-
-
-
-  opacity: 0;
-
-
-
-  animation: fadeInAnimation ease 500ms;
-
-
-
-  animation-iteration-count: 1;
-
-
-
-  animation-fill-mode: forwards;
-
-
-
-  animation-delay: 200ms;
-
-
-
-}
-
-
-
-#discord2 {
-
-
-
-  height: 50px;
-
-
-
-  width: 50px;
-
-
-
-  position: relative;
-
-
-
-  pointer-events: none;
-
-
-
-
-
-
-  opacity: 0;
-
-
-
-  animation: fadeInAnimation ease 500ms;
-
-
-
-  animation-iteration-count: 1;
-
-
-
-  animation-fill-mode: forwards;
-
-
-
-  animation-delay: 400ms;
-
-
-
-}
-
-
-
-#discord3 {
-
-
-
-  height: 50px;
-
-
-
-  width: 50px;
-
-
-
-  position: relative;
-
-
-
-  pointer-events: none;
-
-
-
-
-
-
-  opacity: 0;
-
-
-
-  animation: fadeInAnimation ease 500ms;
-
-
-
-  animation-iteration-count: 1;
-
-
-
-  animation-fill-mode: forwards;
-
-
-
-  animation-delay: 600ms;
-
-
-
-}
-
-
-
-#discord4 {
-
-
-
-  height: 50px;
-
-
-
-  width: 50px;
-
-
-
-  position: relative;
-
-
-
-  pointer-events: none;
-
-
-
-
-
-
-  opacity: 0;
-
-
-
-  animation: fadeInAnimation ease 500ms;
-
-
-
-  animation-iteration-count: 1;
-
-
-
-  animation-fill-mode: forwards;
-
-
-
-  animation-delay: 800ms;
-
-
-
-}
-
-
-
-#discord5 {
-.
-
-
-  height: 50px;
-
-
-
-  width: 50px;
-
-
-
-  position: relative;
-
-
-
-  pointer-events: none;
-
-
-
-
-
-
-
-  opacity: 0;
-
-
-
-  animation: fadeInAnimation ease 500ms;
-
-
-
-  animation-iteration-count: 1;
-
-
-
-  animation-fill-mode: forwards;
-
-
-
-  animation-delay: 1000ms;
-
-
-
-}
-
-
-
-#discord6 {
-
-
-
-  height: 50px;
-
-
-
-  width: 50px;
-
-
-
-  position: relative;
-
-
-
-  pointer-events: none;
-
-
-
-
-
-
-
-  opacity: 0;
-
-
-
-  animation: fadeInAnimation ease 500ms;
-
-
-
-  animation-iteration-count: 1;
-
-
-
-  animation-fill-mode: forwards;
-
-
-
-  animation-delay: 1200ms;
-
-
-
+.discord-images {
+  left: -135px;
 }
 
 
