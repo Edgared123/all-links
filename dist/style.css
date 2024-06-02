@@ -8,6 +8,7 @@ html {
 
 
 .profile-pic {
+  display: block;
   width: 100px; /* Adjust based on your needs */
   height: 100px; /* Adjust based on your needs */
   background-color: #181515; /* Grey color */
