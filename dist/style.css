@@ -482,7 +482,48 @@ a.featured:before {
 
 
 }
+.discord6 {
 
+
+
+  height: 50px;
+
+
+
+  width: 50px;
+
+
+
+  position: relative;
+
+
+
+  pointer-events: none;
+
+
+
+
+  opacity: 0;
+
+
+
+  animation: fadeInAnimation ease 500ms;
+
+
+
+  animation-iteration-count: 1;
+
+
+
+  animation-fill-mode: forwards;
+
+
+
+  animation-delay: 1400ms;
+
+
+
+}
 /*link fade in effect*/
 #link1 {
 
