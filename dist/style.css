@@ -5,11 +5,18 @@ html {
   font-size: 100%
 
 }
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .profile-pic {
   width: 100px; /* Adjust based on your needs */
   height: 100px; /* Adjust based on your needs */
-  background-color: #393e46; /* Grey color */
+  background-color: #0d0909; /* Grey color */
   box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2); /* Shadow effect */
 }
 
@@ -29,7 +36,7 @@ html {
 
 body {
 
-  background-color: #222831;
+  background-color: #000000f2;
 
   color: #fff;
 
@@ -74,22 +81,6 @@ h4 {
   filter: blur(3px);
 
 }
-
-
-
-.circle {
-
-  width: 115px;
-
-  height: 115px;
-
-  position: relative;
-
-}
-
-
-
-
 
 a.featured:hover,
 
