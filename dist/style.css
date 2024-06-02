@@ -101,9 +101,9 @@ a {
 
   display: block;
 
-  max-width: 400px;
+  width: 400px;
 
-  margin: 0 auto 15px;
+  max-width: 400px;
 
   padding: 15px 20px;
 
@@ -482,7 +482,7 @@ a.featured:before {
 
 
 }
-.discord6 {
+.discord7 {
 
 
 
@@ -526,6 +526,7 @@ a.featured:before {
 }
 /*link fade in effect*/
 #link1 {
+  margin: 0 auto 15px;
 
   opacity: 0;
 
@@ -539,6 +540,7 @@ a.featured:before {
 
 }
 #link2 {
+  margin: 0 auto 15px;
 
   opacity: 0;
 
@@ -552,6 +554,7 @@ a.featured:before {
 
 }
 #link3 {
+  margin: 0 auto 15px;
 
   opacity: 0;
 
@@ -565,6 +568,7 @@ a.featured:before {
 
 }
 #link4 {
+  margin: 0 auto 15px;
 
   opacity: 0;
 
@@ -578,6 +582,7 @@ a.featured:before {
 
 }
 #link5 {
+  margin: 0 auto 15px;
 
   opacity: 0;
 
@@ -592,6 +597,7 @@ a.featured:before {
 }
 
 #link6 {
+  margin: 0 auto 15px;
 
   opacity: 0;
 
@@ -619,21 +625,3 @@ a.featured:before {
 
 }
 
-.content-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: stretch; /* This will ensure the children of content-wrapper are the same height */
-}
-
-.image, .link-box {
-  width: 150px; /* Adjust this value as needed */
-  height: 150px; /* Both elements will have the same size */
-  text-align: center; /* Center text inside the link box */
-  line-height: 150px; /* Aligns the text vertically */
-  display: block; /* Make the link take up the whole area for consistency with the image */
-  background-color: #808080; /* Example background color for the link box, remove if not needed */
-}
-
-.image {
-  object-fit: cover; /* Keeps the aspect ratio of the image but covers the space */
-}
