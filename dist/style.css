@@ -10,10 +10,10 @@ h1 {
   display: block;
   max-width: 400px;
   margin: 0 auto 15px;
-  width: 400px; /* Adjust based on your needs */
+  width: 115px; /* Adjust based on your needs */
   height: 115px; /* Adjust based on your needs */
   background-color: #141414; /* Grey color */
-  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  box-shadow: 18px 17px 28px rgba(0, 0, 0, 37.2);
 }
 img {
   width: 50px;
@@ -25,7 +25,7 @@ h6 {
   max-width: 400px;
   margin: 0 auto 15px;
   width: 400px; /* Adjust based on your needs */
-  height: 115px; /* Adjust based on your needs */
+  height: 700px; /* Adjust based on your needs */
   background-color: #141414; /* Grey color */
   box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2); /* Shadow effect */
 }
@@ -117,9 +117,9 @@ a {
 
   display: block;
 
-  width: 400px;
+  width: 395px;
 
-  max-width: 400px;
+  max-width: 395px;
 
   padding: 15px 20px;
 
