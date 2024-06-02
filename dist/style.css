@@ -6,6 +6,13 @@ html {
 
 }
 
+.profile-pic {
+  width: 100px; /* Adjust based on your needs */
+  height: 100px; /* Adjust based on your needs */
+  background-color: #393e46; /* Grey color */
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2); /* Shadow effect */
+}
+
 
 
 *,
@@ -22,7 +29,7 @@ html {
 
 body {
 
-  background-color: #000000;
+  background-color: #222831;
 
   color: #fff;
 
@@ -52,7 +59,7 @@ h4 {
 
   max-width: 400px;
 
-  filter: blur(1px);
+  filter: blur(3px);
 
   margin: 0 auto 15px auto;
 
@@ -72,12 +79,12 @@ h4 {
 
 .circle {
 
-  width: 141px;
+  width: 115px;
 
-  height: 141px;
+  height: 115px;
 
   position: relative;
- 
+
 }
 
 
@@ -130,7 +137,6 @@ a {
 
 
 
-
 a.featured {
 
   opacity: 0;
@@ -176,112 +182,320 @@ a.featured:before {
 }
 
 
+
 /*all discord img */
 
-#discord1 {
+.discord1 {
+
+
+
   height: 50px;
+
+
+
   width: 50px;
+
+
+
   position: relative;
+
+
+
   pointer-events: none;
+
+
+
+  top: -384px;
+
+
+
+  right: 25px;
+
+
+
   opacity: 0;
+
+
+
   animation: fadeInAnimation ease 500ms;
+
+
+
   animation-iteration-count: 1;
+
+
+
   animation-fill-mode: forwards;
+
+
+
   animation-delay: 200ms;
-  display: block;
-  margin: -9px auto 15px;
 
-  align-items: center;
+
+
 }
-#discord2 {
+
+
+
+.discord2 {
+
+
+
   height: 50px;
+
+
+
   width: 50px;
+
+
+
   position: relative;
+
+
+
   pointer-events: none;
+
+
+
+  top: -320px;
+
+
+
+  right: 79px;
+
+
+
   opacity: 0;
+
+
+
   animation: fadeInAnimation ease 500ms;
+
+
+
   animation-iteration-count: 1;
+
+
+
   animation-fill-mode: forwards;
+
+
+
   animation-delay: 400ms;
-  margin: 15px auto 15px;
-  top: 8px;
+
+
+
 }
-#discord3 {
+
+
+
+.discord3 {
+
+
+
   height: 50px;
+
+
+
   width: 50px;
+
+
+
   position: relative;
+
+
+
   pointer-events: none;
-  top: 7px;
+
+
+
+  top: -256px;
+
+
+
+  right: 133px;
+
+
+
   opacity: 0;
+
+
+
   animation: fadeInAnimation ease 500ms;
+
+
+
   animation-iteration-count: 1;
+
+
+
   animation-fill-mode: forwards;
+
+
+
   animation-delay: 600ms;
-  margin: 14px auto 1px;
+
+
+
 }
-#discord4 {
-  
+
+
+
+.discord4 {
+
+
+
   height: 50px;
+
+
+
   width: 50px;
+
+
+
   position: relative;
+
+
+
   pointer-events: none;
+
+
+
+  top: -192px;
+
+
+
+  right: 187px;
+
+
+
   opacity: 0;
+
+
+
   animation: fadeInAnimation ease 500ms;
+
+
+
   animation-iteration-count: 1;
+
+
+
   animation-fill-mode: forwards;
+
+
+
   animation-delay: 800ms;
-  margin: 12px auto 13px;
+
+
+
 }
 
-#discord5 {
-  width: 50px;
-  position: relative;
-  pointer-events: none;
-  opacity: 0;
-  animation: fadeInAnimation ease 500ms;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
-  animation-delay: 1000ms;
-}
-#discord6 {
+
+
+.discord5 {
+
+
+
   height: 50px;
+
+
+
   width: 50px;
+
+
+
   position: relative;
+
+
+
   pointer-events: none;
+
+
+
+  top: -128px;
+
+
+
+  right: 241px;
+
+
+
   opacity: 0;
+
+
+
   animation: fadeInAnimation ease 500ms;
+
+
+
   animation-iteration-count: 1;
+
+
+
   animation-fill-mode: forwards;
-  animation-delay: 1200ms;
+
+
+
+  animation-delay: 1000ms;
+
+
+
 }
 
-.discord-images img {
-  right: 30px;
-  top: 10px;
-  display: block;
-  margin: 12px auto 15px;
-}
-.discord-images {
+
+
+.discord6 {
+
+
+
+  height: 50px;
+
+
+
+  width: 50px;
+
+
+
   position: relative;
-  top: -385px;
+
+
+
+  pointer-events: none;
+
+
+
+  top: -64px;
+
+
+
+  right: 295px;
+
+
+
+  opacity: 0;
+
+
+
+  animation: fadeInAnimation ease 500ms;
+
+
+
+  animation-iteration-count: 1;
+
+
+
+  animation-fill-mode: forwards;
+
+
+
+  animation-delay: 1200ms;
+
+
+
 }
-
-.discord-images {
-  left: -135px;
-}
-
-
-
-
-
-
-
-
-
-
 
 /*link fade in effect*/
-
 #link1 {
 
   opacity: 0;
@@ -295,9 +509,6 @@ a.featured:before {
   animation-delay: 200ms;
 
 }
-
-
-
 #link2 {
 
   opacity: 0;
@@ -311,9 +522,6 @@ a.featured:before {
   animation-delay: 400ms;
 
 }
-
-
-
 #link3 {
 
   opacity: 0;
@@ -327,9 +535,6 @@ a.featured:before {
   animation-delay: 600ms;
 
 }
-
-
-
 #link4 {
 
   opacity: 0;
@@ -343,9 +548,6 @@ a.featured:before {
   animation-delay: 800ms;
 
 }
-
-
-
 #link5 {
 
   opacity: 0;
@@ -360,8 +562,6 @@ a.featured:before {
 
 }
 
-
-
 #link6 {
 
   opacity: 0;
@@ -375,9 +575,6 @@ a.featured:before {
   animation-delay: 1200ms;
 
 }
-
-
-
 @keyframes fadeInAnimation {
 
   0% {
@@ -385,9 +582,6 @@ a.featured:before {
       opacity: 0;
 
   }
-
-
-
   100% {
 
       opacity: 1;
