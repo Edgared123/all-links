@@ -7,11 +7,13 @@ html {
 }
 
 
-.profile-pic {
+h1 {
   display: block;
-  width: 100px; /* Adjust based on your needs */
-  height: 100px; /* Adjust based on your needs */
-  background-color: #181515; /* Grey color */
+  max-width: 400px;
+  margin: 0 auto 15px;
+  width: 115px; /* Adjust based on your needs */
+  height: 115px; /* Adjust based on your needs */
+  background-color: #141414; /* Grey color */
   box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2); /* Shadow effect */
 }
 
@@ -59,7 +61,7 @@ h4 {
 
   display: block;
 
-  max-width: 400px;
+  max-width: 385px;
 
   filter: blur(3px);
 
