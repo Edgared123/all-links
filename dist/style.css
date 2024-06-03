@@ -15,37 +15,6 @@ h1 {
   background-color: #141414; /* Grey color */
   box-shadow: 18px 17px 28px rgba(0, 0, 0, 37.2);
 }
-img {
-  width: 50px;
-}
-h7 {
-  text-align: center;
-  display: block;
-  max-width: 400px;
-  margin: 0 auto 15px;
-  width: 400px; /* Adjust based on your needs */
-  height: 15px; /* Adjust based on your needs */
-  background-color: #141414; /* Grey color */
-  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2); /* Shadow effect */
-}
-.image-container {
-  margin: 0 auto; /* Adjust as needed */
-}
-h6 {
-  text-align: center;
-  display: block;
-  max-width: 400px;
-  margin: 0 auto 15px;
-  width: 400px; /* Adjust based on your needs */
-  height: 700px; /* Adjust based on your needs */
-  background-color: #141414; /* Grey color */
-  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.2); /* Shadow effect */
-}
-h6 img {
-  display: block;
-  margin: 0 auto 15px;
-}
-*,
 
 :after,
 
