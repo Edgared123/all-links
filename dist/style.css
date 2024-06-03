@@ -29,15 +29,10 @@ h1 {
 body {
 
   background-color: #000000f2;
-
   color: #fff;
-
   min-height: 100vh;
-
-  
-
-  font-family: Roboto, sans-serif
-
+  text-align: center;
+  font-family: Roboto, sans-serif;
 }
 
 
@@ -136,7 +131,7 @@ a.featured {
 
   color: #000000;
 
-  border-radius: 40px;
+  border-radius: 18px;
 
   font-weight: 700;
 
