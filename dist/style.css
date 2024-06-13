@@ -28,13 +28,13 @@ h1 {
 
 body {
 
-  background-color: #000000f2;
+  background-color: #222222;
   color: #fff;
   min-height: 100vh;
   text-align: center;
   font-family: Roboto, sans-serif;
   transform: scale(0.9);
-  transform-origin: top left;
+  transform-origin: center;
 }
 
 
