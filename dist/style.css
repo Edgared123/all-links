@@ -3,16 +3,19 @@ html {
   box-sizing: border-box;
 
   font-size: 100%
-
 }
+
 h1 {
   text-align: center;
   display: block;
   max-width: 400px;
   margin: 0 auto 15px;
-  width: 115px; /* Adjust based on your needs */
-  height: 115px; /* Adjust based on your needs */
-  background-color: #141414; /* Grey color */
+  width: 115px;
+  /* Adjust based on your needs */
+  height: 115px;
+  /* Adjust based on your needs */
+  background-color: #000000b7;
+  /* Grey color */
   box-shadow: 18px 17px 28px rgba(0, 0, 0, 37.2);
 }
 
@@ -21,7 +24,6 @@ h1 {
 :before {
 
   box-sizing: inherit
-
 }
 
 
@@ -99,7 +101,7 @@ a {
 
   display: block;
 
-  
+
 
   max-width: 385px;
 
@@ -166,7 +168,6 @@ a.featured:before {
   height: calc(100% - 4px);
 
   border: 0px solid #000000
-
 }
 
 
@@ -498,6 +499,7 @@ a.featured:before {
   animation-delay: 200ms;
 
 }
+
 #link2 {
   margin: 0 auto 15px;
 
@@ -512,6 +514,7 @@ a.featured:before {
   animation-delay: 400ms;
 
 }
+
 #link3 {
   margin: 0 auto 15px;
 
@@ -526,6 +529,7 @@ a.featured:before {
   animation-delay: 600ms;
 
 }
+
 #link4 {
   margin: 0 auto 15px;
 
@@ -540,6 +544,7 @@ a.featured:before {
   animation-delay: 800ms;
 
 }
+
 #link5 {
   margin: 0 auto 15px;
 
@@ -569,18 +574,19 @@ a.featured:before {
   animation-delay: 1200ms;
 
 }
+
 @keyframes fadeInAnimation {
 
   0% {
 
-      opacity: 0;
+    opacity: 0;
 
   }
+
   100% {
 
-      opacity: 1;
+    opacity: 1;
 
   }
 
 }
-
